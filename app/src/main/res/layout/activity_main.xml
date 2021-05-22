@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="question"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/contrail_one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.396" />
+
+    <Button
+        android:id="@+id/tvTrue"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@android:color/darker_gray"
+        android:padding="20dp"
+        android:text="True"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/tvFalse"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="False"
+        android:backgroundTint="@android:color/darker_gray"
+        android:textColor="@color/black"
+        />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:padding="15dp"
+        android:text="Next" />
+
+    <Button
+        android:id="@+id/showanswer"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:padding="15dp"
+        android:text="Show Answer" />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="20dp"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/tvCongratulations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="Hey, Result is here!"
+        android:textColor="@android:color/black"
+        android:fontFamily="@font/contrail_one"
+        android:textSize="35sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tvScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="135dp"
+        android:background="#80B00020"
+        android:fontFamily="@font/contrail_one"
+        android:padding="15dp"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        tools:text="Your Score" />
+
+    <Button
+        android:id="@+id/last"
+        android:layout_width="169dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:backgroundTint="@color/black"
+        android:padding="25sp"
+        android:text="FINISH"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
